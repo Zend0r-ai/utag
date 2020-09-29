@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+9d577e18762bf901bccd2b2370d79661 app/CMakeFiles/utag_autogen
+9ea1becdd22262daac4f1d5032d06414 app/src/CMakeFiles/src_autogen
+100cda7f44c98c9f5e57cb597e2c7d65 taglib/CMakeFiles/docs
+50ff4b6e81cb016eecacca466b5f6254 taglib/CMakeFiles/uninstall

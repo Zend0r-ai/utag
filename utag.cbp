@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="utag"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\taglib\;CMake Files\taglib\taglib\;CMake Files\taglib\taglib\toolkit\;CMake Files\taglib\bindings\;CMake Files\taglib\bindings\c\;CMake Files\app\;CMake Files\app\src\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\.brew\;CMake Files\..\..\.brew\opt\;CMake Files\..\..\.brew\opt\qt\;CMake Files\..\..\.brew\opt\qt\lib\;CMake Files\..\..\.brew\opt\qt\lib\cmake\;CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5\;CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Widgets\;CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\;CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/vkniaziev/Desktop/utag"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/vkniaziev/Desktop/utag"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/vkniaziev/Desktop/utag"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/vkniaziev/Desktop/utag"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/vkniaziev/Desktop/utag"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/vkniaziev/Desktop/utag"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/vkniaziev/Desktop/utag"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utag">
+				<Option output="/Users/vkniaziev/Desktop/utag/app/utag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTAGLIB_STATIC"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/utag_autogen/include"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/./src"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../cmake-build-debug/app/src/src_autogen/include"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/build/include"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/toolkit"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/ape"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg/id3v1"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg/id3v2"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg/id3v2/frames"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../bindings/c"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../build/taglib"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtCore.framework"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/./mkspecs/macx-clang"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtWidgets.framework"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtGui.framework"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtGui.framework/Headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/Makefile&quot;  VERBOSE=1 utag"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utag/fast">
+				<Option output="/Users/vkniaziev/Desktop/utag/app/utag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTAGLIB_STATIC"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/utag_autogen/include"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/./src"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../cmake-build-debug/app/src/src_autogen/include"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/build/include"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/toolkit"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/ape"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg/id3v1"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg/id3v2"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg/id3v2/frames"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../bindings/c"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../build/taglib"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtCore.framework"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/./mkspecs/macx-clang"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtWidgets.framework"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtGui.framework"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtGui.framework/Headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/Makefile&quot;  VERBOSE=1 utag/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utag_autogen">
+				<Option working_dir="/Users/vkniaziev/Desktop/utag/app"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/Makefile&quot;  VERBOSE=1 utag_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src">
+				<Option output="/Users/vkniaziev/Desktop/utag/app/src/libsrc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vkniaziev/Desktop/utag/app/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTAGLIB_STATIC"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/src"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/src/src_autogen/include"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/./src"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../cmake-build-debug/app/src/src_autogen/include"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/build/include"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/toolkit"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/ape"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg/id3v1"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg/id3v2"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg/id3v2/frames"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../bindings/c"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../build/taglib"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtCore.framework"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/./mkspecs/macx-clang"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtWidgets.framework"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtGui.framework"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtGui.framework/Headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/src/Makefile&quot;  VERBOSE=1 src"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src/fast">
+				<Option output="/Users/vkniaziev/Desktop/utag/app/src/libsrc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vkniaziev/Desktop/utag/app/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTAGLIB_STATIC"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/src"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/src/src_autogen/include"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/./src"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../cmake-build-debug/app/src/src_autogen/include"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/build/include"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/toolkit"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/ape"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg/id3v1"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg/id3v2"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../taglib/taglib/mpeg/id3v2/frames"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../bindings/c"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/app/../build/taglib"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtCore.framework"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/./mkspecs/macx-clang"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtWidgets.framework"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtGui.framework"/>
+					<Add directory="/Users/vkniaziev/.brew/opt/qt/lib/QtGui.framework/Headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/src/Makefile&quot;  VERBOSE=1 src/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src_autogen">
+				<Option working_dir="/Users/vkniaziev/Desktop/utag/app/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/src/Makefile&quot;  VERBOSE=1 src_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/app/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/vkniaziev/Desktop/utag/taglib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="docs">
+				<Option working_dir="/Users/vkniaziev/Desktop/utag/taglib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/Makefile&quot;  VERBOSE=1 docs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tag">
+				<Option output="/Users/vkniaziev/Desktop/utag/taglib/taglib/libtag.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vkniaziev/Desktop/utag/taglib/taglib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTAGLIB_STATIC"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/asf"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/flac"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/flac"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpc"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/vorbis"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/speex"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/opus"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v1"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/ape"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/wavpack"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/trueaudio"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/aiff"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/wav"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mod"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/s3m"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/it"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/xm"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/dsf"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/dsdiff"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/3rdparty"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/taglib/Makefile&quot;  VERBOSE=1 tag"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/taglib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/taglib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/taglib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tag/fast">
+				<Option output="/Users/vkniaziev/Desktop/utag/taglib/taglib/libtag.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vkniaziev/Desktop/utag/taglib/taglib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTAGLIB_STATIC"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/asf"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/flac"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/flac"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpc"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/vorbis"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/speex"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/opus"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v1"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/ape"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/wavpack"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/trueaudio"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/aiff"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/wav"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/mod"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/s3m"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/it"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/xm"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/dsf"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/taglib/dsdiff"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/3rdparty"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/taglib/Makefile&quot;  VERBOSE=1 tag/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/taglib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/taglib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/taglib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tag_c">
+				<Option output="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/libtag_c.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vkniaziev/Desktop/utag/taglib/bindings/c"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTAGLIB_STATIC"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/toolkit"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/asf"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/mpeg"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/ogg"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/ogg/vorbis"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/ogg/flac"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/flac"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/mpc"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/mp4"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/mpeg/id3v2"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/mpeg/id3v2/frames"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/wavpack"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/ogg/speex"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/trueaudio"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/bindings/c/Makefile&quot;  VERBOSE=1 tag_c"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/bindings/c/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/bindings/c/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/bindings/c/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tag_c/fast">
+				<Option output="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/libtag_c.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vkniaziev/Desktop/utag/taglib/bindings/c"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTAGLIB_STATIC"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/toolkit"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/asf"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/mpeg"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/ogg"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/ogg/vorbis"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/ogg/flac"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/flac"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/mpc"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/mp4"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/mpeg/id3v2"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/mpeg/id3v2/frames"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/wavpack"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/ogg/speex"/>
+					<Add directory="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/../../taglib/trueaudio"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/bindings/c/Makefile&quot;  VERBOSE=1 tag_c/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/bindings/c/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/bindings/c/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkniaziev/Desktop/utag/taglib/bindings/c/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/app/main.cpp">
+			<Option target="utag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/app/src/dialog.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/app/src/dialog.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/app/src/dialog.ui">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/app/src/mainwindow.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/app/src/mainwindow.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/app/src/mainwindow.ui">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/app/src/src_autogen/mocs_compilation.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/app/utag_autogen/mocs_compilation.cpp">
+			<Option target="utag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/tag_c.cpp">
+			<Option target="tag_c"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/tag_c.h">
+			<Option target="tag_c"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ape/apefile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ape/apefile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ape/apefooter.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ape/apefooter.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ape/apeitem.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ape/apeitem.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ape/apeproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ape/apeproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ape/apetag.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ape/apetag.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/asf/asfattribute.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/asf/asfattribute.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/asf/asffile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/asf/asffile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/asf/asfpicture.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/asf/asfpicture.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/asf/asfproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/asf/asfproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/asf/asftag.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/asf/asftag.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/audioproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/audioproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/fileref.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/fileref.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/flac/flacfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/flac/flacfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/flac/flacmetadatablock.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/flac/flacmetadatablock.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/flac/flacpicture.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/flac/flacpicture.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/flac/flacproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/flac/flacproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/flac/flacunknownmetadatablock.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/flac/flacunknownmetadatablock.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/it/itfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/it/itfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/it/itproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/it/itproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mod/modfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mod/modfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mod/modfilebase.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mod/modfilebase.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mod/modproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mod/modproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mod/modtag.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mod/modtag.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4/mp4atom.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4/mp4atom.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4/mp4coverart.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4/mp4coverart.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4/mp4file.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4/mp4file.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4/mp4item.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4/mp4item.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4/mp4properties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4/mp4properties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4/mp4tag.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mp4/mp4tag.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpc/mpcfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpc/mpcfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpc/mpcproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpc/mpcproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v1/id3v1genres.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v1/id3v1genres.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v1/id3v1tag.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v1/id3v1tag.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/chapterframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/chapterframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/commentsframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/commentsframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/ownershipframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/ownershipframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/podcastframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/podcastframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/privateframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/privateframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/unknownframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/unknownframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/urllinkframe.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2extendedheader.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2extendedheader.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2footer.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2footer.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2frame.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2frame.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2framefactory.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2framefactory.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2header.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2header.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2synchdata.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2synchdata.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2tag.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/id3v2/id3v2tag.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/mpegfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/mpegfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/mpegheader.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/mpegheader.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/mpegproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/mpegproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/xingheader.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/mpeg/xingheader.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/flac/oggflacfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/flac/oggflacfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/oggfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/oggfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/oggpage.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/oggpage.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/oggpageheader.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/oggpageheader.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/opus/opusfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/opus/opusfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/opus/opusproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/opus/opusproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/speex/speexfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/speex/speexfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/speex/speexproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/speex/speexproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/vorbis/vorbisfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/vorbis/vorbisfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/vorbis/vorbisproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/vorbis/vorbisproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/xiphcomment.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/ogg/xiphcomment.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/aiff/aifffile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/aiff/aifffile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/aiff/aiffproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/aiff/aiffproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/rifffile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/rifffile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/wav/infotag.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/wav/infotag.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/wav/wavfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/wav/wavfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/wav/wavproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/riff/wav/wavproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/s3m/s3mfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/s3m/s3mfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/s3m/s3mproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/s3m/s3mproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/tag.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/tag.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/taglib_export.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/tagunion.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/tagunion.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/tagutils.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/tagutils.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/taglib.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tbytevector.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tbytevector.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tbytevectorlist.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tbytevectorlist.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tbytevectorstream.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tbytevectorstream.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tdebug.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tdebug.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tdebuglistener.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tdebuglistener.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tfilestream.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tfilestream.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tiostream.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tiostream.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tlist.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tlist.tcc">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tmap.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tmap.tcc">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tpropertymap.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tpropertymap.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/trefcounter.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/trefcounter.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tstring.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tstring.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tstringlist.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tstringlist.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tzlib.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/tzlib.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/trueaudio/trueaudiofile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/trueaudio/trueaudiofile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/trueaudio/trueaudioproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/trueaudio/trueaudioproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/wavpack/wavpackfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/wavpack/wavpackfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/wavpack/wavpackproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/wavpack/wavpackproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/xm/xmfile.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/xm/xmfile.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/xm/xmproperties.cpp">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/xm/xmproperties.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib_config.h">
+			<Option target="tag"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\taglib\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/ConfigureChecks.cmake">
+			<Option virtualFolder="CMake Files\taglib\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/Doxyfile.cmake">
+			<Option virtualFolder="CMake Files\taglib\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\taglib\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/config.h.cmake">
+			<Option virtualFolder="CMake Files\taglib\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib-config.cmake">
+			<Option virtualFolder="CMake Files\taglib\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib.pc.cmake">
+			<Option virtualFolder="CMake Files\taglib\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\taglib\taglib\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/taglib_config.h.cmake">
+			<Option virtualFolder="CMake Files\taglib\taglib\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/taglib/toolkit/taglib.h">
+			<Option virtualFolder="CMake Files\taglib\taglib\toolkit\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/bindings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\taglib\bindings\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\taglib\bindings\c\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/taglib/bindings/c/taglib_c.pc.cmake">
+			<Option virtualFolder="CMake Files\taglib\bindings\c\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\app\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/app/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\app\src\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/vkniaziev/Desktop/utag/../../.brew/opt/qt/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\.brew\opt\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -22,7 +22,7 @@ MainWindow::MainWindow(const QString& directory_path, QWidget *parent) : QMainWi
     QDir directory(directory_path);
 //    directory.
     dir_path = directory.path();
-    images = directory.entryList(QStringList() << "*.mp3" << "*.mp3",QDir::Files);
+    images = directory.entryList(QStringList() << "*.mp3" << "*.mp3" << "*.ogg" << "*.OGG" << "*.wav" << "*.WAV" << "*.flac" << "*.FLAC",QDir::Files);
 
     QList<FileTagsMain> file_list;
     foreach(QString filename, images) {
