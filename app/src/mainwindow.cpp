@@ -20,7 +20,6 @@ MainWindow::MainWindow(const QString& directory_path, QWidget *parent) : QMainWi
     basic_sheet = qApp->styleSheet();
     ui->setupUi(this);
     QDir directory(directory_path);
-//    directory.
     dir_path = directory.path();
     images = directory.entryList(QStringList() << "*.mp3" << "*.mp3" << "*.ogg" << "*.OGG" << "*.wav" << "*.WAV" << "*.flac" << "*.FLAC",QDir::Files);
 
@@ -40,10 +39,10 @@ MainWindow::MainWindow(const QString& directory_path, QWidget *parent) : QMainWi
                 map_file[file_path_Q].editable = false;
         }
         else {
-            map_file[file_path_Q] = {"None",
-                                     "None",
-                                     "None",
-                                     "None",
+            map_file[file_path_Q] = {"-",
+                                     "-",
+                                     "-",
+                                     "-",
                                      file_path_Q,
                                      false
             };
@@ -148,26 +147,23 @@ void MainWindow::on_actionExit_triggered()
 
 void MainWindow::on_actionDark_Theme_triggered()
 {
+    qApp->setStyle(QStyleFactory::create("Fusion"));
     if(ui->actionDark_Theme->isChecked()){
         QPalette dark_theme;
-        dark_theme.setColor(QPalette::Window, Qt::black);
-        dark_theme.setColor(QPalette::Button, Qt::black);
-        dark_theme.setColor(QPalette::ButtonText, Qt::gray);
-//        darkPalette.setColor(QPalette::Window, QColor(53,53,53));
-//        darkPalette.setColor(QPalette::WindowText, Qt::white);
-////        darkPalette.setColor(QPalette::ButtonText)
-//        darkPalette.setColor(QPalette::Base, QColor(25,25,25));
-//        darkPalette.setColor(QPalette::AlternateBase, QColor(53,53,53));
-//        darkPalette.setColor(QPalette::ToolTipBase, Qt::white);
-//        darkPalette.setColor(QPalette::ToolTipText, Qt::white);
-//        darkPalette.setColor(QPalette::Text, Qt::white);
-//        darkPalette.setColor(QPalette::Button, QColor(53,53,53));
-//        darkPalette.setColor(QPalette::ButtonText, Qt::gray);
-//        darkPalette.setColor(QPalette::BrightText, Qt::red);
-//        darkPalette.setColor(QPalette::Link, QColor(42, 130, 218));
-//        darkPalette.setColor(QPalette::Highlight, QColor(42, 130, 218));
-//        darkPalette.setColor(QPalette::HighlightedText, Qt::black);
-
+        dark_theme.setColor(QPalette::Window, QColor(38, 38, 38));
+        dark_theme.setColor(QPalette::Window, QColor(53,53,53));
+        dark_theme.setColor(QPalette::WindowText, Qt::gray);
+        dark_theme.setColor(QPalette::Base, QColor(25,25,25));
+        dark_theme.setColor(QPalette::AlternateBase, QColor(53,53,53));
+        dark_theme.setColor(QPalette::ToolTipBase, Qt::white);
+        dark_theme.setColor(QPalette::ToolTipText, QColor(0, 255, 85, 0.4));
+        dark_theme.setColor(QPalette::Text, Qt::white);
+        dark_theme.setColor(QPalette::Button, QColor(64, 64, 64));
+        dark_theme.setColor(QPalette::ButtonText, QColor(0, 204, 0));
+        dark_theme.setColor(QPalette::BrightText, Qt::red);
+        dark_theme.setColor(QPalette::Link, QColor(42, 130, 218));
+        dark_theme.setColor(QPalette::Highlight, QColor(0, 255, 85, 0.4));
+        dark_theme.setColor(QPalette::HighlightedText, QColor(0, 204, 0));
         qApp->setPalette(dark_theme);
         qApp->setStyleSheet("QToolTip { color: #ffffff; background-color: #2a82da; border: 1px solid white; }");
         return;
