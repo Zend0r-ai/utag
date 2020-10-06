@@ -1,7 +1,7 @@
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QStyleFactory>
 #include "mainwindow.h"
-#include "./ui_mainwindow.h"
+#include "ui_mainwindow.h"
 #include "dialog.h"
 #include <QtCore/QFileInfo>
 #include "QDebug"
@@ -20,6 +20,8 @@ MainWindow::MainWindow(const QString& directory_path, QWidget *parent) : QMainWi
     basic_sheet = qApp->styleSheet();
     ui->setupUi(this);
     QDir directory(directory_path);
+    ui->logger->hide();
+//    directory.
     dir_path = directory.path();
     images = directory.entryList(QStringList() << "*.mp3" << "*.mp3" << "*.ogg" << "*.OGG" << "*.wav" << "*.WAV" << "*.flac" << "*.FLAC",QDir::Files);
 
@@ -29,6 +31,7 @@ MainWindow::MainWindow(const QString& directory_path, QWidget *parent) : QMainWi
         QFileInfo info(file_path_Q);
         TagLib::FileRef edit_file_tags(file_path_Q.toLocal8Bit().constData());
         if(info.exists() && info.isReadable() && !edit_file_tags.isNull()) {
+            Add_Log_Message("File added");
             map_file[file_path_Q] = {edit_file_tags.tag()->title().toCString(true),
                                      edit_file_tags.tag()->artist().toCString(true),
                                      edit_file_tags.tag()->album().toCString(true),
@@ -39,6 +42,7 @@ MainWindow::MainWindow(const QString& directory_path, QWidget *parent) : QMainWi
                 map_file[file_path_Q].editable = false;
         }
         else {
+            Add_Log_Message("Permission denied");
             map_file[file_path_Q] = {"-",
                                      "-",
                                      "-",
@@ -96,10 +100,6 @@ void MainWindow::ListSorting() {
     }
 }
 
-void MainWindow::ListFilling() {
-
-}
-
 MainWindow::~MainWindow()
 {
     delete ui;
@@ -117,25 +117,34 @@ void edit_tags(const FileTagsDialog& new_tags, const QString& key){
 
 void MainWindow::on_editButton_pressed()
 {
-    QListWidgetItem* buf = ui->listWidget->currentItem();
-    if(ui->listWidget->count() != 0 && map_file[buf->statusTip()].editable == true){
-        auto buffer = map_file[buf->statusTip()];
-        Dialog* new_elem = new Dialog({buffer.title, buffer.artist, buffer.album, buffer.genre});
-        new_elem->setModal(true);
-        new_elem->exec();
-        FileTagsDialog new_buf = new_elem->get_res();
-        buf->setText(new_buf.title + "\n" + new_buf.artist + "\n" + new_buf.album + "\n" + new_buf.genre + "\n" + buf->statusTip());
-        map_file[buf->statusTip()] = {new_buf.title, new_buf.artist, new_buf.album, new_buf.genre};
-        edit_tags(new_buf, buf->statusTip());
-        ListSorting();
+    if(ui->listWidget->currentItem()) {
+        QListWidgetItem *buf = ui->listWidget->currentItem();
+        if (ui->listWidget->count() != 0 && map_file[buf->statusTip()].editable == true && buf) {
+            auto buffer = map_file[buf->statusTip()];
+            Dialog *new_elem = new Dialog({buffer.title, buffer.artist, buffer.album, buffer.genre});
+            new_elem->setModal(true);
+            new_elem->exec();
+            FileTagsDialog new_buf = new_elem->get_res();
+            buf->setText(new_buf.title + "\n" + new_buf.artist + "\n" + new_buf.album + "\n" + new_buf.genre + "\n" +
+                         buf->statusTip());
+            map_file[buf->statusTip()] = {new_buf.title, new_buf.artist, new_buf.album, new_buf.genre};
+            edit_tags(new_buf, buf->statusTip());
+            ListSorting();
+            Add_Log_Message("The file has been edited");
+        } else {
+            auto mess_box = new QMessageBox(this);
+            Add_Log_Message("The file is not editable");
+            mess_box->setText("The file is not editable");
+            auto button = new QPushButton("OK");
+            mess_box->setDefaultButton(button);
+            mess_box->exec();
+        }
     }
-    else {
-        auto mess_box = new QMessageBox(this);
-        mess_box->setText("The file is not editable");
-        auto button = new QPushButton("OK");
-        mess_box->setDefaultButton(button);
-        mess_box->exec();
-    }
+}
+
+void MainWindow::Add_Log_Message(const QString &mess) {
+    ui->logger->append(QDate::currentDate().toString("[dd:MM:yyyy] ") + mess);
+//    insertPlainText(message.append("\n"));
 }
 
 
@@ -220,4 +229,12 @@ void MainWindow::on_actionSort_descending_triggered()
     ui->actionSort_ascending->setChecked(false);
     ui->actionSort_descending->setChecked(true);
     ListSorting();
+}
+
+void MainWindow::on_actionLog_Window_triggered() {
+    if(!ui->actionLog_Window->isChecked()){
+        ui->logger->hide();
+    } else {
+        ui->logger->show();
+    }
 }

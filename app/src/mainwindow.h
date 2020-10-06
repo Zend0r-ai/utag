@@ -13,6 +13,7 @@
 #include <iostream>
 #include <mpegfile.h>
 #include <QDialog>
+#include <QDate>
 #include <QMessageBox>
 
 #include <algorithm>
@@ -53,7 +54,7 @@ class MainWindow : public QMainWindow
     MainWindow(QWidget *parent = nullptr);
     MainWindow(const QString& directory_path, QWidget *parent = nullptr);
     void ListSorting();
-    void ListFilling();
+    void Add_Log_Message(const QString& mess);
     ~MainWindow();
 
 private slots:
@@ -66,6 +67,7 @@ private slots:
     void on_actionGenre_triggered();
     void on_actionSort_ascending_triggered();
     void on_actionSort_descending_triggered();
+    void on_actionLog_Window_triggered();
 
 private:
     Ui::MainWindow *ui;

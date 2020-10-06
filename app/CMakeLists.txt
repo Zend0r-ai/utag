@@ -2,19 +2,19 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 include_directories(./src/)
 include_directories(../cmake-build-debug/app/src/src_autogen/include)
-include_directories(../taglib/build/include)
+include_directories(../3dparty/taglib/build/include)
 
 
 include_directories(
-        ${CMAKE_CURRENT_SOURCE_DIR}/../taglib/taglib
-        ${CMAKE_CURRENT_SOURCE_DIR}/../taglib/taglib/toolkit
-        ${CMAKE_CURRENT_SOURCE_DIR}/../taglib/taglib/ape
-        ${CMAKE_CURRENT_SOURCE_DIR}/../taglib/taglib/mpeg
-        ${CMAKE_CURRENT_SOURCE_DIR}/../taglib/taglib/mpeg/id3v1
-        ${CMAKE_CURRENT_SOURCE_DIR}/../taglib/taglib/mpeg/id3v2
-        ${CMAKE_CURRENT_SOURCE_DIR}/../taglib/taglib/mpeg/id3v2/frames
-        ${CMAKE_CURRENT_SOURCE_DIR}/../bindings/c/
-        ${CMAKE_CURRENT_SOURCE_DIR}/../build/taglib/
+        ${CMAKE_CURRENT_SOURCE_DIR}/../3dparty/taglib/taglib
+        ${CMAKE_CURRENT_SOURCE_DIR}/../3dparty/taglib/taglib/toolkit
+        ${CMAKE_CURRENT_SOURCE_DIR}/../3dparty/taglib/taglib/ape
+        ${CMAKE_CURRENT_SOURCE_DIR}/../3dparty/taglib/taglib/mpeg
+        ${CMAKE_CURRENT_SOURCE_DIR}/../3dparty/taglib/taglib/mpeg/id3v1
+        ${CMAKE_CURRENT_SOURCE_DIR}/../3dparty/taglib/taglib/mpeg/id3v2
+        ${CMAKE_CURRENT_SOURCE_DIR}/../3dparty/taglib/taglib/mpeg/id3v2/frames
+        ${CMAKE_CURRENT_SOURCE_DIR}/../3dparty/taglib/bindings/c/
+        ${CMAKE_CURRENT_SOURCE_DIR}/../build/3dparty/taglib/
 )
 
 if(NOT BUILD_SHARED_LIBS)

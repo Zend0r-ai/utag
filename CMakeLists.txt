@@ -21,7 +21,5 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 #    add_definitions(-DTAGLIB_STATIC)
 #endif()
 
-#add_subdirectory(3dparty)
-
+add_subdirectory(3dparty)
 add_subdirectory(app)
-add_subdirectory(taglib)

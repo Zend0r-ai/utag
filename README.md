@@ -21,7 +21,7 @@ Simple tag editor for audio files
 ## Installation
 
 ```bash
-git clone https://github.com/Zend0r-ai/utag.git
+git clone --recursive https://github.com/Zend0r-ai/utag.git
 cmake . -Bbuild -Wdev -Werror=dev && cmake --build ./build
 ```
 
